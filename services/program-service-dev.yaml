@@ -4,8 +4,12 @@ spring:
       enabled: true
 
   mongodb:
-    uri: mongodb://root:kglWO71O-9KPZq4vch_4IB_mqd6YvznB1rrBv-YN12D8vKOD@bfa50ad2-de0a-4033-b72a-3f581bf927b1.asia-southeast1.firestore.goog:443/db-capstone?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
-
+    host: localhost
+    port: 13500
+    database: eca
+    username: root
+    password: mongodb
+    authentication-database: admin
 
 server:
   port: 0

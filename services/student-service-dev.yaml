@@ -4,9 +4,9 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/db-capstone
+    url: jdbc:postgresql://localhost:12500/eca
     username: postgres
-    password: v0BFShNEgfrF)6sX
+    password: psql
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -16,7 +16,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-#        format_sql: true
+        format_sql: true
 
 servlet:
   multipart:
